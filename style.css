@@ -6,14 +6,29 @@ font-size: 24px;
 line-height: 25px;
 letter-spacing: -0.08em;
 text-transform: uppercase;
-
+margin-top: 40px;
 color: #333333;
+}
+body{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 77px;
+    margin-right: 77px;
+
 }
 .main{
     display: flex;
     flex-wrap: wrap;
-
 }
+.imgContainer{
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 img{
     height: 238.00001525878906px;
 width: 286.829833984375px;
@@ -23,6 +38,70 @@ border-radius: 0px;
 
 }
 
+.texte{
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.titre{
+    width: 586px;
+    font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 95px;
+letter-spacing: -0.035em;
+
+/* Gray 1 */
+
+color: #333333;
+
+}
+
+.sousTitre{
+    width: 381px;
+    font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: -0.035em;
+
+/* Gray 2 */
+
+color: #4F4F4F;
+}
+
+.bouton{
+    background: #333333;
+    width: 216px;
+display: flex;
+justify-content: center;
+text-align: center;
+
+}
+.texteBouton{
+    width: 140px;
+height: 21px;
+    font-family: Space Mono;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: -0.035em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.bot{
+    text-align: center;
+}
 @media (min-width:500px){
     img{
         height: 447.4263916015625px;
