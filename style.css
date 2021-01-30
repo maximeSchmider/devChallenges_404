@@ -1,0 +1,35 @@
+.header{
+    font-family: Inconsolata;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 25px;
+letter-spacing: -0.08em;
+text-transform: uppercase;
+
+color: #333333;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+img{
+    height: 238.00001525878906px;
+width: 286.829833984375px;
+left: 44px;
+top: 109px;
+border-radius: 0px;
+
+}
+
+@media (min-width:500px){
+    img{
+        height: 447.4263916015625px;
+width: 539.2236938476562px;
+left: 77px;
+top: 265px;
+border-radius: 0px;
+
+    }
+}
